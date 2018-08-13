@@ -24,7 +24,8 @@
     "build": "node scripts/build",
     "watch:site": "rollup -c scripts/rollup.website.config.js -w",
     "start": "http-server website/bin",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post",
+    "prePublish": "npm run build"
   },
   "peerDependencies": {
     "react": "*",
