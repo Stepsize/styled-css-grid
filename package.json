@@ -1,6 +1,6 @@
 {
-  "name": "styled-css-grid",
-  "version": "0.0.0-development",
+  "name": "@stepsize/styled-css-grid",
+  "version": "0.0.1",
   "description": "A tiny CSS grid layout for React, built with styled-components",
   "homepage": "https://styled-css-grid.js.org",
   "main": "dist/styled-css-grid.umd.js",
